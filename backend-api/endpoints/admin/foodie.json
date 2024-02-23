@@ -1,0 +1,203 @@
+{
+    "questionnaireID":49,
+    "questionnaireTitle":"Διατροφικές συνήθειες",
+    "questionNum":10,
+    "questions":[
+       {
+          "qID":50,
+          "qtext":"Ποιο είναι το φύλλο σας;",
+          "isprofile":1,
+          "options":[
+             {
+                "optID":60,
+                "opttxt":"Γυναίκα",
+                "nextqID":51
+             },
+	     {
+                "optID":61,
+                "opttxt":"Άντρας",
+                "nextqID":51
+             }
+          ]
+       },
+       {
+          "qID":51,
+          "qtext":"Ποια είναι η ηλικία σας;",
+          "isprofile":1,
+          "options":[
+             {
+                "optID":62,
+                "opttxt":"18-24",
+                "nextqID":52
+             },
+             {
+                "optID":63,
+                "opttxt":"25-30",
+                "nextqID":52
+             },
+             {
+                "optID":64,
+                "opttxt":"30-45",
+                "nextqID":52
+             },
+             {
+                "optID":65,
+                "opttxt":"45+",
+                "nextqID":52
+             }
+          ]
+       },
+       {
+          "qID":52,
+          "qtext":"Ασχολείστε με τη διατροφή;",
+          "isprofile":0,
+          "options":[
+             {
+                "optID":66,
+                "opttxt":"Ναι",
+                "nextqID":53
+             },
+             {
+                "optID":67,
+                "opttxt":"Όχι",
+                "nextqID":53
+             }
+          ]
+       },
+       {
+          "qID":53,
+          "qtext":"Τρώτε πρωινό καθημερινά",
+          "isprofile":0,
+          "options":[
+             {
+                "optID":68,
+                "opttxt":"Πάντα",
+                "nextqID":57
+             },
+             {
+                "optID":69,
+                "opttxt":"4-5 φορές",
+                "nextqID":57 
+             },
+	     {
+                "optID":70,
+                "opttxt":"2-3 φορές",
+                "nextqID":57 
+             },
+	     {
+                "optID":71,
+                "opttxt":"Ποτέ",
+                "nextqID":54 
+             }
+          ]
+       },
+       {
+          "qID":54,
+          "qtext":"Καταναλώνετε φρούτα μέσα στην ημέρα σας;",
+          "isprofile":0,
+          "options":[
+             {
+                "optID":72,
+                "opttxt":"Ναι",
+                "nextqID":55
+             },
+             {
+                "optID":73,
+                "opttxt":"Οχι",
+                "nextqID":56 
+             }
+          ]
+       },
+       {
+          "qID":55,
+          "qtext":"Πόσα φρούτα καταναλώνεται στην ημέρα σας;",
+          "isprofile":0,
+          "options":[
+             {
+                "optID":74,
+                "opttxt":"1",
+                "nextqID":56
+             },
+             {
+                "optID":75,
+                "opttxt":"2+",
+                "nextqID":56 
+             }
+          ]
+       },
+       {
+          "qID":56,
+          "qtext":"Τρώτε απέξω;",
+          "isprofile":0,
+          "options":[
+             {
+                "optID":76,
+                "opttxt": "Ναι",
+                "nextqID":58
+             },
+             {
+                "optID":77,
+                "opttxt":"Οχι",
+                "nextqID":58
+             }
+          ]
+       },
+       {
+          "qID":57,
+          "qtext":"Το πρωινό σας περιλαμβάνει φρούτο;",
+          "isprofile":0,
+          "options":[
+             {
+                "optID":78,
+                "opttxt":"Ναι",
+                "nextqID":56
+             },
+             {
+                "optID":79,
+                "opttxt": "Οχι ",
+                "nextqID":56
+             }
+          ]
+       },
+       {
+          "qID":58,
+          "qtext":"Πόσες φορές την εβδομάδα;",
+          "isprofile":0,
+          "options":[
+             {
+                "optID":80,
+                "opttxt":"1",
+                "nextqID":59
+             },
+             {
+                "optID":81,
+                "opttxt":"2",
+                "nextqID":59
+             },
+             {
+                "optID":82,
+                "opttxt":"3+",
+                "nextqID":59
+             }
+          ]
+       },
+       {
+          "qID":59,
+          "qtext":"Είστε vegan;",
+          "isprofile":0,
+          "options":[
+             {
+                "optID":83,
+                "opttxt": "Ναι",
+                "nextqID":null
+             },
+             {
+                "optID":84,
+                "opttxt":"Οχι",
+                "nextqID": null
+             }
+          ]
+       }
+       
+    ]
+ }

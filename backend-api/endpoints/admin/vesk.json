@@ -1,0 +1,221 @@
+
+
+{
+    "questionnaireID":0,
+    "questionnaireTitle":"Τεστ προσωπικότητας",
+    "questionNum":11,
+    "questions":[
+       {
+          "qID":0,
+          "qtext":"Ποιο είναι το mail σας;",
+          "isprofile":1,
+          "options":[
+             {
+                "optID":0,
+                "opttxt":"δεν απαντώ",
+                "nextqID":1
+             }
+          ]
+       },
+       {
+          "qID":1,
+          "qtext":"Ποια είναι η ηλικία σας;",
+          "isprofile":1,
+          "options":[
+             {
+                "optID":2,
+                "opttxt":"1",
+                "nextqID":2
+             },
+             {
+                "optID":3,
+                "opttxt":"2",
+                "nextqID":2
+             },
+             {
+                "optID":4,
+                "opttxt":"3",
+                "nextqID":2
+             },
+             {
+                "optID":5,
+                "opttxt":"4+",
+                "nextqID":2
+             }
+          ]
+       },
+       {
+          "qID":2,
+          "qtext":"Ποιο είναι το αγαπημένο σας χρώμα;",
+          "isprofile":0,
+          "options":[
+             {
+                "optID":6,
+                "opttxt":"Πράσινο",
+                "nextqID":3
+             },
+             {
+                "optID":7,
+                "opttxt":"Πορτοκαλί",
+                "nextqID":3
+             },
+             {
+                "optID":8,
+                "opttxt":"Κιτρινόμαυρο",
+                "nextqID":3
+             }
+          ]
+       },
+       {
+          "qID":3,
+          "qtext":"Ασχολείστε με το ποδόσφαιρο;",
+          "isprofile":0,
+          "options":[
+             {
+                "optID":9,
+                "opttxt":"Πολύ",
+                "nextqID":4
+             },
+             {
+                "optID":10,
+                "opttxt":"Λίγο",
+                "nextqID":5
+             }
+          ]
+       },
+       {
+          "qID":4,
+          "qtext":"Τι ομάδα είστε;",
+          "isprofile":0,
+          "options":[
+             {
+                "optID":11,
+                "opttxt":"Μαύρη Θύελλα",
+                "nextqID":5
+             },
+             {
+                "optID":12,
+                "opttxt":"Φονικά Μούσμουλα",
+                "nextqID":5
+             },
+             {
+                "optID":13,
+                "opttxt":"ΑΕΚ",
+                "nextqID":5
+             }
+          ]
+       },
+       {
+          "qID":5,
+          "qtext":"Έχετε ζήσει σε νησί;",
+          "isprofile":0,
+          "options":[
+             {
+                "optID":14,
+                "opttxt":"Όχι",
+                "nextqID":6
+             },
+             {
+                "optID":15,
+                "opttxt":"Έχω υπάρξει εν ζωή σε νησί ναι",
+                "nextqID":7
+             }
+          ]
+       },
+       {
+          "qID":6,
+          "qtext":"Ποιο είναι το αγαπημένο σας σκληρό ναρκωτικό",
+          "isprofile":0,
+          "options":[
+             {
+                "optID":16,
+                "opttxt":"Μεθαμφεταμίνη",
+                "nextqID":8
+             },
+             {
+                "optID":17,
+                "opttxt":"Πόκεμον",
+                "nextqID":8
+             },
+             {
+                "optID":18,
+                "opttxt":"Πανάθα",
+                "nextqID":8
+             }
+          ]
+       },
+       {
+          "qID":7,
+          "qtext":"Είστε χειμερινός κολυμβητής",
+          "isprofile":0,
+          "options":[
+             {
+                "optID":19,
+                "opttxt":"Ούτε καν θερινός",
+                "nextqID":8
+             },
+             {
+                "optID":20,
+                "opttxt":"Βέβαια",
+                "nextqID":8
+             }
+          ]
+       },
+       {
+          "qID":8,
+          "qtext":"Ποιος είναι ο αγαπημένος σας τροπικός",
+          "isprofile":0,
+          "options":[
+             {
+                "optID":21,
+                "opttxt":"του καρκίνου",
+                "nextqID":9
+             },
+             {
+                "optID":22,
+                "opttxt":"αιγόκερως γκανγκ",
+                "nextqID":9
+             },
+             {
+                "optID":23,
+                "opttxt":"δεν παρακολουθώ",
+                "nextqID":9
+             }
+          ]
+       },
+       {
+          "qID":9,
+          "qtext":"Συμφωνείτε να αλλάζει η ώρα κάθε χρόνο;",
+          "isprofile":0,
+          "options":[
+             {
+                "optID":24,
+                "opttxt":"Ε ναι τι θα σταματήσει ο χρόνος;",
+                "nextqID":10
+             },
+             {
+                "optID":25,
+                "opttxt":"Ουχί",
+                "nextqID": null
+             }
+          ]
+       },
+       {
+          "qID":10,
+          "qtext":"Αν σταματούσε ο χρόνος τι θα κάνατε πρώτα πρώτα;",
+          "isprofile":0,
+          "options":[
+             {
+                "optID":26,
+                "opttxt":"Θα έκλεβα την τράπεζα",
+                "nextqID": null
+             },
+             {
+                "optID":27,
+                "opttxt":"Θα έμπαινα σε ξένα σπίτια",
+                "nextqID": null
+             }
+          ]
+       }
+    ]
+ }

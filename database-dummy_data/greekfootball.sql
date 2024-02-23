@@ -1,0 +1,11 @@
+use intelliq;
+insert into questionnaire values (100, 'greekfootball', 3);
+insert into questions values(100, 'Which team do you support?', false, 100);
+insert into questions values(101, 'Do you think AEK will win the championship?', false, 100);
+insert into questions values(102, 'Do you think GAYROS will win the championship?', false, 100);
+insert into answers values(100, 'AEK', 100, 101, 100);
+insert into answers values(101, 'GAVROS', 100, 102, 100);
+insert into answers (a_id,a_text,q_id,questionnaire_id) values(102, 'YES', 101, 100);
+insert into answers (a_id,a_text,q_id,questionnaire_id) values(103, 'NO', 101, 100);
+insert into answers (a_id,a_text,q_id,questionnaire_id) values(104, 'YES', 102, 100);
+insert into answers (a_id,a_text,q_id,questionnaire_id) values(105, 'NO', 102, 100);
